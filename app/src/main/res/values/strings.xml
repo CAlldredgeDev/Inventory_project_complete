@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Inventory_Project</string>
+    <string name="menu_insert_item_sample">Insert Dummy Item</string>
+    <string name="delete_all_items">Delete All Items</string>
+    <string name="save">save</string>
+    <string name="menu_editor_action_delete">Delete</string>
+    <string name="no_items">There are no products at this time</string>
+    <string name="no_items_subtitle">To quick add an item you can  \n
+        Insert a dummy item from the menu above.
+        \n\n
+        Otherwise, you can click on the Headphones
+        \n below to add a new item.
+        \n \n
+        To edit any item simply touch it in the list.
+        \n\n
+        When adding a new item enter as much data \n
+        as possible. Any omitted data will default \n
+    to Unknown or 0 where appropriate.</string>
+    <string name="quantity_cannot_be_less_than_zero">Quantity cannot be less than zero</string>
+    <string name="generic_phone">5559874563</string>
+    <string name="sale_item_error">Error with sale of item</string>
+    <string name="sale_item_ok">Item Sold</string>
+    <string name="sale_item_big_error">Item Out of Stock</string>
+    <string name="rows_deleted_from_db">rows deleted from inventory database.</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="cannot_be_zero">Cannot be less than zero</string>
+    <string name="zero">0</string>
+    <string name="unknown_model">Unknown Model</string>
+    <string name="unknown_manu">Unknown Manufacturer</string>
+    <string name="phone_number_error">Phone number to long, setting to default</string>
+    <string name="issue_with_save">There was an issue saving the item</string>
+    <string name="save_ok">New item saved</string>
+    <string name="error_update">Error with updating item</string>
+    <string name="update_ok">Item Updated</string>
+    <string name="delete_item_question">Delete this item?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_delete">Error deleting the item</string>
+    <string name="error_delete_message">Error with deleting this</string>
+    <string name="delete_ok">Item deleted</string>
+    <string name="empty" />
+    <string name="discard_and_quit">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="re_order">Re-Order</string>
+</resources>

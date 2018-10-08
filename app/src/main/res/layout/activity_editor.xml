@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the editor -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EditorActivity">
+
+    <!--Product info-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--Label-->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="Product Info" />
+
+        <!--Input Fields-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="4dp">
+
+            <!--Name Field-->
+            <EditText
+                android:id="@+id/edit_item_name"
+                style="@style/EditorFieldStyle"
+                android:hint="Name" />
+
+            <!--Price Field-->
+            <EditText
+                android:id="@+id/edit_item_price"
+                style="@style/EditorFieldStyle"
+                android:hint="Price" />
+
+            <!--Quantity Field-->
+            <EditText
+                android:id="@+id/edit_item_quantity"
+                style="@style/EditorFieldStyle"
+                android:hint="Quantity" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_decrease_quantity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Decrease" />
+
+                <Button
+                    android:id="@+id/button_increase_quantity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Increase" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!--Supplier Data-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="64dp">
+
+        <!--Label-->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="Supplier Info" />
+        <!--Supplier Inputs-->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <!--Supplier Name-->
+            <EditText
+                android:id="@+id/edit_supplier_name"
+                style="@style/EditorFieldStyle"
+                android:hint="Supplier Name" />
+            <!--Supplier Phone-->
+            <EditText
+                android:id="@+id/edit_supplier_phone"
+                style="@style/EditorFieldStyle"
+                android:layout_below="@+id/edit_supplier_name"
+                android:hint="Supplier Phone" />
+        </RelativeLayout>
+        <!--End Supplier Info-->
+    </LinearLayout>
+    <!--End Root View-->
+</LinearLayout>
